@@ -1,3 +1,24 @@
+# Rajesh Kumar's TCL BeyondTV profile
+
+This is my personal configuration of [Gathin23's CleanYourTV project](https://github.com/Gathin23/cleanyourtv), formerly called tv-vibehack. The upstream project provides the launcher and maintenance tools; I adapted and verified a launcher setup for my TCL TV. Original source, documentation, examples, and notices are retained in this fork.
+
+## My TV setup
+
+- **TV:** TCL 50 P6 15RTV (the About screen labels it “BeyondTV”)
+- **System:** Android TV 9; firmware family `V8-R851T02-LF1V387.017078`
+- **Home screen:** CleanYourTV launcher set as the default Home screen and verified on this TV
+- **Pinned apps:** Netflix, Prime Video, YouTube, JioHotstar, and Sony LIV
+- **Live TV / inputs:** TCL TV app package `com.tcl.tv`
+- **Layout:** five app columns
+
+The profile files are in [`profiles/tcl-beyondtv-50p6-15rtv/`](profiles/tcl-beyondtv-50p6-15rtv/). SET Max was not present as an installed TV app during setup, so it is not pinned. The launcher is configured to show installed apps; newly installed apps can appear in the app grid.
+
+**Safety note:** This profile changes the launcher configuration. No package debloating list was applied as part of this personal setup. Keep the stock launcher available for recovery and use the upstream restore guidance before making device changes.
+
+**Credit and licence:** The launcher and tools remain the work of their upstream contributors, especially Gathin23. This repository is a personal adaptation, not a claim of authorship over the upstream project. See [LICENSE](LICENSE) for the preserved MIT notice and added attribution for my profile changes. The Outfit font has its separate SIL Open Font License notice.
+
+---
+
 <p align="center">
   <a href="https://cleanyour.tv"><img src="https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/docs/banner.png" alt="CleanYourTV. Your TV, minus the ads." width="800"></a>
 </p>
