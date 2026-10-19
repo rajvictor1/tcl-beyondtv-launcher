@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rajesh Kumar's tested TCL BeyondTV (50 P6 15RTV) launcher profile.
+     Based on Gathin23/CleanYourTV. -->
+<resources>
+    <string-array name="dock_apps">
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.google.android.youtube.tv</item>
+        <item>in.startv.hotstar</item>
+        <item>com.sonyliv</item>
+    </string-array>
+    <string-array name="hidden_apps" />
+    <string name="live_tv_package" translatable="false">com.tcl.tv</string>
+    <string name="live_tv_action" translatable="false"></string>
+    <string name="source_panel_service" translatable="false"></string>
+    <string name="source_panel_action" translatable="false"></string>
+    <string name="input_action" translatable="false"></string>
+    <bool name="shamsi_date">false</bool>
+    <string name="vpn_app" translatable="false"></string>
+    <integer name="rows_below_dock">0</integer>
+    <integer name="columns">5</integer>
+    <bool name="show_home_settings_shortcut">false</bool>
+    <bool name="module_cards">true</bool>
+</resources>
